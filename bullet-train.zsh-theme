@@ -21,11 +21,16 @@ if [ ! -n "${BULLETTRAIN_PROMPT_ORDER+1}" ]; then
     time
     status
     custom
+#    context
     dir
+#    perl
+#    ruby
     virtualenv
+#    nvm
     go
     git
     hg
+#    cmd_exec_time
   )
 fi
 
